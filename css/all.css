@@ -62,32 +62,67 @@ table {
 }
 
 .header h1 {
-      font-size: 30px;
+      font-size: 60px;
       color: #fff;
       text-align: center;
       padding-top: 20px;
+      margin-top: 5vh;
       margin-bottom: 5vh;
       
 }
 
 .menu{
-  background: goldenrod;
+  background: #fff;
   text-align: center;
   padding: 20px auto;
   margin-top: -50px;
-  margin-bottom: 50px ;
+  margin-bottom: 300px ;
   font-size: 30px;
   padding: 20px 0px;
   width: 60%;
   position: absolute;
   left: 20%;
+  border: gray solid 1px ;
+  border-radius: 15px;
+  opacity:1;     /*透明度 */
   
+}
+
+
+.menu input {
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  color: #FFF;
+  margin: 5px 20px;
+  font-size: 25px;
+  font-weight: bold;
+
+   
+}
+
+.menu .bt1{
+  background-color: #559ac8;
+}
+
+.menu .bt2{
+  background-color: #F5D105;
+}
+
+.menu .bt3{
+  background-color: #FFA782;
+}
+
+.menu .bt4{
+  background-color: #8A82CC;
 }
 
 
 
 .zonelist{
-  font-size: 30px;      
+  font-size: 30px;   
+  margin-top: 1vh;   
 } 
 
 .place{
@@ -96,54 +131,78 @@ table {
 }
 
 
-
-.content h2{
-  
-}
-
-
 .zonename{
   font-size: 30px;
+  font-weight: bold;
   color: violet;
   text-align: center;
-  margin: 15px;
+  margin-top: 160px;
 }
 
 .card{
-  background: yellow;
+  /* background: yellow; */
   margin: 20px;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
   
 }
 
 .card-wrapper{
-  background: greenyellow;
+  /* background: greenyellow; */
   margin: 30px;
-  padding: 15px;
+  /* padding: 15px; */
   width: 45vh;
-  box-shadow: -10px 0 10px 3px rgba(252,32,13,0.5);
+  box-shadow: -10px 0 10px 3px rgba(65, 61, 61, 0.5);
+  border-radius: 10px;
 }
 
-.cardphoto {
-  
+.cardphoto {  
   height: 30VH;
   background-position: center;
-    background-size: cover;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
   
 
 }
 
 .cardname{
  font-size: 30px;
+ font-weight: bold;
  color: #fff;;
- text-align: center;
+ text-align: left;
+ padding-left: 15px;
  position: relative;
  top: 26VH;
+}
 
+
+.zoneflex p{
+ font-size: 16px;
+ color: #fff;;
+ text-align: right;
+ padding-right: 15px;
+ position: relative;
+ top: 24VH;
 }
 
 .cardinfo{
   margin: 10px 0;
+  padding-left: 10px;
+}
+
+.footer{
+  background-color: #559ac8;
+  font-size: 15px;
+  text-align: center;
+  color: #FFF;
+  padding: 20px 0px;
+}
+
+
+.Ticket{
+  color:gray;
+  text-align: right;
 }
