@@ -212,7 +212,7 @@ menu.addEventListener('click', function (e) {
       if(e.target.defaultValue == travelData[i].Zone){
         
         const strphoto = '<div class="cardphoto" style="background-image: url(' + travelData[i].Picture1 + ')">'+'<div class="zoneflex"><h2 class="cardname">' + travelData[i].Name +'</h2><p>'+ travelData[i].Zone+'</p></div></div>';
-        const strInfo = '<div class="cardinfo"> '+ '<ul><li><img src="../images/icons_clock.png" alt="開放時間"> 開放時間:'+ travelData[i].Opentime +'</li>'+ '<li><img src="../images/icons_pin.png" alt="地址"> 地址:' +travelData[i].Add +'</li>'+' <li><img src="../images/icons_phone.png" alt="電話">&nbsp;&nbsp;電話:' +travelData[i].Tel +'</li><li class="Ticket"><img src="../images/icons_tag.png" alt="收費">&nbsp;&nbsp;' +travelData[i].Ticketinfo +'&nbsp;&nbsp;</li></ul></div>';
+        const strInfo = '<div class="cardinfo"> '+ '<ul><li><img src="images/icons_clock.png" alt="開放時間"> 開放時間:'+ travelData[i].Opentime +'</li>'+ '<li><img src="images/icons_pin.png" alt="地址"> 地址:' +travelData[i].Add +'</li>'+' <li><img src="images/icons_phone.png" alt="電話">&nbsp;&nbsp;電話:' +travelData[i].Tel +'</li><li class="Ticket"><img src="images/icons_tag.png" alt="收費">&nbsp;&nbsp;' +travelData[i].Ticketinfo +'&nbsp;&nbsp;</li></ul></div>';
         const newCard = '<div class="card-wrapper">' + strphoto + strInfo + '</div>'; 
         strCardWrapper = strCardWrapper + newCard; 
       }        
