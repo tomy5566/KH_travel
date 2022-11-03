@@ -201,6 +201,12 @@ table {
   padding: 20px 0px;
 }
 
+.backtotop{
+  position: fixed;
+  right: 30px;
+  bottom: 42px;
+}
+
 
 .Ticket{
   color:gray;
