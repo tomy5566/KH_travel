@@ -1,18 +1,23 @@
 
-// ### <引入JSON資料 法1> 使用自己的資料夾方法
-// //以下引入Json 原理不太明瞭
-// //方法來自網路 https://bobbyhadz.com/blog/javascript-import-json-file
-// //注意有動到HTML中 增加 type="module"
-import jsonData from '../KHtravelJsonUse.json' assert {type: 'json'};
-// console.log('jsonData', jsonData);                     //測試
-// let parsedData = JSON.parse(jsonData);              //此行會錯誤
+// ### <引入JSON資料 法1> 使用自己的資料夾方法  -->請見 all.js 檔案
+
+// ### <引入JSON資料 法2> 使用AJAX方法
+// 資料來源 :六角　https://raw.githubusercontent.com/hexschool/KCGTravel/master/datastore_search.json
+// AJAX get KS travel data
+
+let KHDataUrl = 'https://raw.githubusercontent.com/hexschool/KCGTravel/master/datastore_search.json';
+let xhrKH = new XMLHttpRequest(); 
+xhrKH.open('get', KHDataUrl, false);  //使用true 非同步就會錯 !!!!!!!
+xhrKH.send(null);
+
+let jsonData = JSON.parse(xhrKH.responseText); 
 let travelData = jsonData.result.records;
+// console.log('jsonData', jsonData);                     //測試
 // console.log('travelData', travelData);                 //測試
 // console.log('travelData[0].Name', travelData[0].Name); //測試
 // console.log('travelData.length', travelData.length);   //測試
 // console.log('travelData.Zone', travelData[0].Zone);    //測試
 
-// ### <引入JSON資料 法2> 使用AJAX方法 -->請見 all_ajax.js 檔案
 
 // ###建立 區(Zone) 的清單
 
