@@ -3,6 +3,9 @@
 ## 主要介紹
 使用高雄市政府開放資料，迅速查看各區的主要旅遊景點資訊。
 
+## DEMO link
+[https://tomy5566.github.io/KH_travel/](https://tomy5566.github.io/KH_travel/)
+
 ## 使用技術
 - HTML
 - CSS: [flex](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex)
