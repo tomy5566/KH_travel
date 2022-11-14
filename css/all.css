@@ -52,6 +52,7 @@ table {
 
 .header{
   background-image: url(../images/Hero.png);
+  background-size: cover;
   background-repeat: round ;
   height: 33vh;
   max-width: 100%;
