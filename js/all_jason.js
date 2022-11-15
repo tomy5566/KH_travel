@@ -152,6 +152,7 @@ menu.addEventListener('click', function (e) {
   } 
   card.innerHTML = strCardWrapper;
   zonename.innerHTML = e.target.defaultValue;
+  zonelist.value =  e.target.defaultValue;
   }
 }, false);
 
