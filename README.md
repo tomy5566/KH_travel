@@ -22,6 +22,8 @@
 
 ## 介面展示
 ![image](https://github.com/tomy5566/KH_travel/blob/66f7cbf0a0133910217fa541ae26d1a26430d32d/KH_readmegif.gif)
+![image](https://github.com/tomy5566/KH_travel/blob/main/KH_readmegif.gif)
+
 
 ## 參考資料
 六角學院JavaScrip線上課程
