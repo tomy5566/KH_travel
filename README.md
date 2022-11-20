@@ -21,7 +21,7 @@
 5. 使用 Ajax 串接六角學院 API，在頁末模擬**訂閱旅遊電子報**的功能
 
 ## 介面展示
-![image](https://i.imgur.com/7ncdwzU.gif)
+![image]([[https://i.imgur.com/7ncdwzU.gif](https://github.com/tomy5566/KH_travel/blob/66f7cbf0a0133910217fa541ae26d1a26430d32d/KH_readmegif.gif)](https://github.com/tomy5566/KH_travel/blob/66f7cbf0a0133910217fa541ae26d1a26430d32d/KH_readmegif.gif))
 
 ## 參考資料
 六角學院JavaScrip線上課程
