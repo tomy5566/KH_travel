@@ -20,8 +20,16 @@
 4. 使用 [EventListener](https://developer.mozilla.org/zh-TW/docs/Web/API/EventTarget/addEventListener) 製作網頁互動效果與更新旅遊卡片功能
 5. 使用 Ajax 串接六角學院 API，在頁末模擬**訂閱旅遊電子報**的功能
 
+## 功能介紹
+- 顯示串接高雄開放資料的旅遊相關資訊，用圖卡列出相關資訊。
+- 使用中間選單，可直接選取想要查詢的行政區查詢資料。
+- 使用熱門行政區案鳥，可查詢該行政區，且上方選單會一併跳轉。
+- 右下角設計浮動"回到上方"的書籤超連結。
+- 表尾模擬訂閱電子報功能，會顯示訂閱成功或是已經訂閱過的資訊。
+
 ## 介面展示
-![image](https://github.com/tomy5566/KH_travel/blob/66f7cbf0a0133910217fa541ae26d1a26430d32d/KH_readmegif.gif)
+![image](https://github.com/tomy5566/KH_travel/blob/main/KH_readmegif.gif)
+
 
 ## 參考資料
 六角學院JavaScrip線上課程
